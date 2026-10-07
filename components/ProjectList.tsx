@@ -6,8 +6,8 @@ export default function ProjectList() {
     <div className="project-list">
       {projects.map((project) => (
         <Link
-          key={project.number}
-          href={project.href}
+          key={project.slug}
+          href={`/work/${project.slug}`}
           className="project-row"
         >
           <span className="project-row__number">{project.number}</span>
