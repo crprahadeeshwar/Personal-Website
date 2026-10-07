@@ -19,8 +19,8 @@
   --color-oxblood: #7a211c;
 
   /* Layout */
-  --content-width: 1280px;
-  --page-padding: clamp(1.25rem, 4vw, 4rem);
+  --content-width: 1440px;
+  --page-padding: clamp(1.25rem, 3vw, 3rem);
 
   /* Motion */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -149,4 +149,34 @@ a {
 
 .header__nav a:hover {
   color: var(--color-ink);
+}
+
+.hero {
+  padding-top: clamp(5rem, 12vw, 10rem);
+  padding-bottom: clamp(6rem, 14vw, 12rem);
+}
+
+.hero__title {
+  max-width: 1100px;
+  margin: 2rem 0 0;
+  font-family: var(--font-sans);
+  font-size: clamp(3rem, 6.5vw, 7rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.hero__title em {
+  font-family: var(--font-serif);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.work {
+  padding-bottom: clamp(5rem, 10vw, 10rem);
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
 }

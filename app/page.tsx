@@ -6,31 +6,20 @@ export default function Home() {
       <Header />
 
       <main>
-        <section className="page section">
-          <p className="label">CRP — Personal Site</p>
+        <section className="hero page">
+          <p className="label">Software Engineering · Aviation</p>
 
-          <h1
-            className="display"
-            style={{
-              fontSize: "clamp(4rem, 10vw, 9rem)",
-              margin: "2rem 0",
-            }}
-          >
-            Engineering,
-            <br />
-            without the noise.
+          <h1 className="hero__title">
+            Software engineering student exploring{" "}
+            <em>systems, infrastructure, and aviation.</em>
           </h1>
+        </section>
+        <section className="work page">
+          <div className="section-heading">
+            <p className="label">Selected Work</p>
+          </div>
 
-          <p
-            className="body"
-            style={{
-              maxWidth: "36rem",
-              color: "var(--color-muted)",
-            }}
-          >
-            Software engineering student exploring systems,
-            infrastructure, and aviation.
-          </p>
+          <div className="rule" />
         </section>
       </main>
     </>
