@@ -22,7 +22,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="mailto:"
+              href="mailto:cr.prahadeeshwar@proton.me"
               className="contact-page__link"
             >
               Get in touch

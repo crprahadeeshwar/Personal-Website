@@ -21,7 +21,7 @@ export default function Home() {
         </section>
                 <section className="hero-links page">
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/crprahadeeshwar"
             target="_blank"
             rel="noreferrer"
           >
@@ -29,7 +29,7 @@ export default function Home() {
           </a>
 
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="https://www.linkedin.com/in/prahadeeshwar-c-r-24676934a/"
             target="_blank"
             rel="noreferrer"
           >
@@ -37,9 +37,8 @@ export default function Home() {
           </a>
 
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
+            href="/resume.pdf" 
+            download="resume.pdf"
           >
             Résumé <span aria-hidden="true">↗</span>
           </a>
@@ -99,15 +98,15 @@ export default function Home() {
           <span>CRP</span>
 
           <div className="footer__links">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <a href="https://github.com/crprahadeeshwar" target="_blank" rel="noreferrer">
               GitHub
             </a>
 
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/prahadeeshwar-c-r-24676934a/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
 
-            <a href="mailto:">Email</a>
+            <a href="mailto:cr.prahadeeshwar@proton.me">Email</a>
           </div>
 
           <span>© 2026</span>
