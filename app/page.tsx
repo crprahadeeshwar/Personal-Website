@@ -50,6 +50,43 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="contact page">
+          <div className="contact__grid">
+            <p className="label">Contact</p>
+
+            <div className="contact__content">
+              <h2 className="contact__title">
+                Have something worth discussing?
+              </h2>
+
+              <a
+                href="mailto:"
+                className="contact__link"
+              >
+                Get in touch <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <footer className="footer page">
+        <div className="footer__inner">
+          <span>CRP</span>
+
+          <div className="footer__links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+
+            <a href="mailto:">Email</a>
+          </div>
+
+          <span>© 2026</span>
+        </div>
+      </footer>
       </main>
     </>
   );
