@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CRP",
+  title: "CRP.",
   description:
-    "Software engineering student exploring systems, infrastructure, and aviation.",
+    "Software engineering student exploring software and beyond.",
 };
 
 export default function RootLayout({
