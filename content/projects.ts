@@ -6,6 +6,7 @@ export type Project = {
   details: string;
   stack: string[];
   year: string;
+  liveUrl?: string
 };
 
 export const projects: Project[] = [
@@ -18,6 +19,7 @@ export const projects: Project[] = [
       "A flight logging application built around structured flight data, analysis, and the practical constraints of using it over time.",
     stack: ["TypeScript", "React", "Supabase"],
     year: "2026",
+    liveUrl: "https://airframe-ten.vercel.app/",
   },
   {
     number: "02",
@@ -28,6 +30,7 @@ export const projects: Project[] = [
       "A parser for decoding aviation weather reports into structured, usable data.",
     stack: ["TypeScript"],
     year: "2026",
+    liveUrl: "https://metar-decoder-three.vercel.app/",
   },
   /*{
     number: "03",

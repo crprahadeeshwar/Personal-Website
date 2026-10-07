@@ -45,12 +45,33 @@ export default async function ProjectPage({
           </p>
 
           <div className="project-hero__meta">
-            <span>{project.year}</span>
+            <span className="project-hero__year">{project.year}</span>
+
+            <span className="project-hero__separator" aria-hidden="true">
+                /
+            </span>
 
             {project.stack.map((item) => (
-              <span key={item}>{item}</span>
+                <span key={item}>{item}</span>
             ))}
-          </div>
+
+            {project.liveUrl && (
+                <>
+                <span className="project-hero__separator" aria-hidden="true">
+                    /
+                </span>
+
+                <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-hero__link"
+                >
+                    Open project ↗
+                </a>
+                </>
+            )}
+            </div>
         </section>
 
         {project.slug === "airframe" && (
@@ -544,9 +565,7 @@ export default async function ProjectPage({
                 <span
 
                   className="project-easter-egg__mark"
-
                   aria-hidden="true"
-
                 >
 
                   ✦

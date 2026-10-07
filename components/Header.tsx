@@ -12,7 +12,7 @@ export default function Header() {
           <nav className="header__nav" aria-label="Primary navigation">
             <Link href="/work">Work</Link>
             <Link href="/about">About</Link>
-            <a href="mailto:">Contact</a>
+            <Link href="/contact">Contact</Link>
           </nav>
         </div>
 

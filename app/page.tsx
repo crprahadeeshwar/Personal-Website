@@ -8,12 +8,41 @@ export default function Home() {
 
       <main>
         <section className="hero page">
-          <p className="label">Software Engineering</p>
+          <p className="label">Computer Science & Engineering</p>
 
           <h1 className="hero__title">
-            Software engineering student exploring{" "}
-            <em>systems, infrastructure, and what comes next.</em>
+            I build things to understand{" "}
+            <em>how they work.</em>
           </h1>
+          <p className="hero__description">
+            Software, systems, infrastructure — and whatever proves interesting
+            enough to build.
+          </p>
+        </section>
+                <section className="hero-links page">
+          <a
+            href="YOUR_GITHUB_URL"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            href="YOUR_LINKEDIN_URL"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Résumé <span aria-hidden="true">↗</span>
+          </a>
         </section>
 
         <section className="work page">
@@ -59,12 +88,9 @@ export default function Home() {
                 Have something worth discussing?
               </h2>
 
-              <a
-                href="mailto:"
-                className="contact__link"
-              >
-                Get in touch <span aria-hidden="true">↗</span>
-              </a>
+             <a href="/contact" className="contact__link">
+              Get in touch <span aria-hidden="true">↗</span>
+            </a>
             </div>
           </div>
         </section>
