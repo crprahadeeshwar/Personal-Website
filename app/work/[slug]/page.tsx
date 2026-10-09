@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import { projects } from "@/content/projects";
+import { ArrowUpRight } from "lucide-react";
 
 type ProjectPageProps = {
   params: Promise<{
@@ -67,7 +68,12 @@ export default async function ProjectPage({
                     rel="noreferrer"
                     className="project-hero__link"
                 >
-                    Open project ↗
+                    Open project 
+                    <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
                 </a>
                 </>
             )}
@@ -586,7 +592,11 @@ export default async function ProjectPage({
 
             <Link href="/work" className="project-next__link">
               View all projects
-              <span aria-hidden="true">↗</span>
+              <ArrowUpRight
+                  size={16}
+                  strokeWidth={1.5}
+                  aria-hidden="true"
+              />
             </Link>
           </div>
         </section>

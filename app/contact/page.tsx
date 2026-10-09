@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -26,7 +27,11 @@ export default function Contact() {
               className="contact-page__link"
             >
               Get in touch
-              <span aria-hidden="true">↗</span>
+              <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
             </a>
           </div>
         </section>

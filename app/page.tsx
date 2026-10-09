@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import ProjectList from "@/components/ProjectList";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -25,7 +26,11 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub <span aria-hidden="true">↗</span>
+            GitHub <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
           </a>
 
           <a
@@ -33,14 +38,22 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn <span aria-hidden="true">↗</span>
+            LinkedIn <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
           </a>
 
           <a
             href="/resume.pdf" 
             download="resume.pdf"
           >
-            Résumé <span aria-hidden="true">↗</span>
+            Résumé <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
           </a>
         </section>
 
@@ -88,7 +101,11 @@ export default function Home() {
               </h2>
 
              <a href="/contact" className="contact__link">
-              Get in touch <span aria-hidden="true">↗</span>
+              Get in touch <ArrowUpRight
+                      size={16}
+                      strokeWidth={1.5}
+                      aria-hidden="true"
+                  />
             </a>
             </div>
           </div>

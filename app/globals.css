@@ -955,3 +955,11 @@ a:focus-visible {
     font-size: 4rem;
   }
 }
+
+.hero-links a svg,
+.contact__link svg,
+.project-hero__link svg,
+.project-next__link svg,
+.contact-page__link svg {
+  flex-shrink: 0;
+}

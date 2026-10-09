@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { projects } from "@/content/projects";
+import { ArrowUpRight } from "lucide-react";
 
 export default function ProjectList() {
   return (
@@ -19,9 +20,12 @@ export default function ProjectList() {
 
           <span className="project-row__year">{project.year}</span>
 
-          <span className="project-row__arrow" aria-hidden="true">
-            ↗
-          </span>
+          <ArrowUpRight
+            className="project-row__arrow"
+            size={18}
+            strokeWidth={1.5}
+            aria-hidden="true"
+            />
         </Link>
       ))}
     </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import { projects } from "@/content/projects";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Work() {
   return (
@@ -50,9 +51,12 @@ export default function Work() {
                 </div>
               </div>
 
-              <span className="work-project__arrow" aria-hidden="true">
-                ↗
-              </span>
+              <ArrowUpRight
+                className="work-project__arrow"
+                size={18}
+                strokeWidth={1.5}
+                aria-hidden="true"
+                />
             </Link>
           ))}
         </section>
